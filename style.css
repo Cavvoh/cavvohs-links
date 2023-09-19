@@ -1,7 +1,11 @@
+/* Background and Text Colors */
 .css-12oz5g7.egzxvld2 {
     padding-top: 0px;
+    background-color: #2e3440; /* Nord background color */
+    color: #d8dee9; /* Nord text color */
 }
 
+/* Centered Block */
 .css-1v0mbdj.etr89bj1 {
     display: block;
     margin-left: auto;
@@ -10,21 +14,22 @@
     max-width: 40%;
 }
 
+/* Bold Text with Centered Alignment */
 .css-10trblm.e16nr0p30 {
     font-weight: bold;
     text-align: center;
+    color: #81a1c1; /* Nord accent color for emphasis */
 }
 
+/* Paragraph Text */
 p {
     font-size: 19px;
-} 
+    color: #d8dee9; /* Nord text color */
+}
 
-MainMenu {
-    visibility: hidden;
-}
-footer {
-    visibility: hidden;
-}
+/* Hide Main Menu, Footer, and Header */
+MainMenu,
+footer,
 header {
-    visibility: hidden;
+    display: none; /* Hide these elements */
 }
